@@ -1,0 +1,29 @@
+letではなくconstにすれば定数
+
+[optionキー]を押しながら[￥マークのキー]を押すとバックスラッシュが入力できます。
+console.log('\'');
+バッククォートは改行できたり、変数入れたりできる
+
+型変換
+let moji ='10'
+Number(moji)
+parseInt(moji)
+
+文字列に変換
+let num = 10
+num.toString()
+
+オブジェクトはキーとバリューがたくさん並んでる
+const coffee = {
+    name: 'mocha'
+    size: 350,
+    nutritions:{
+        calories: 430,
+        sugars:53,
+    },
+}
+
+nullは予定通り何もないことを表す。明示的にしないと出てこない
+undefinedは同じ意味で何もないことを表すが、明示的にしなくても出るためある意味エラー
+
+typeofでデータの型を表す
