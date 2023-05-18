@@ -79,3 +79,87 @@
 // }
 
 // month_jungle(5);
+
+// 配列の末尾を取る
+// let ninja = [];
+// ninja = [1, 3, 5, 7];
+// ninja.pop();
+// alert(ninja);
+
+// 特定文字列が含まれているか
+// let target_str = 'ninjacode';
+// function ninja_judge(str) {
+//   if (str.indexOf(target_str) != -1) {
+//     alert('include');
+//   }
+// }
+
+// ninja_judge('11ninjacode1');
+// indexOf:みつからなければ-1を返す
+
+// 整数型にする
+// let ninja = '１０';
+// ninja = Number(ninja);
+// alert(typeof ninja);
+
+// 大文字にする
+// function my_uppercase( str ){
+//     alert( str.toUpperCase() );
+//    }
+//    my_uppercase( "ninjacode" );
+
+// 最大値取得
+// const my_array = [2, 19, 59, 203, 5];
+// alert(Math.max(...my_array));
+
+// cloneのクラスを持つhtmlをクリックすればliが複製
+// $(function () {
+//   $('.clone').on('click', function () {
+//     let li_clone = $('li').eq(0).clone();
+//     $('ul').append(li_clone);
+//   });
+// });
+
+// フォーカスしたら文字を表示しよう
+// $(function () {
+//     ユーザーがマウスクリックやキーボードの Tab キーなどで要素を選択し、その要素がアクティブになると、focus イベントがトリガーされます。
+//   $('input').focus(function () {
+//     $('.anser').text($(this).val());
+//   });
+// });
+
+// 横スクロール値を取得しよう
+// $(function () {
+//     scroll イベントを監視し、スクロールが発生した時に実行するコードを指定しています。
+//   $('.x-scroll').on('scroll', function () {
+//     $(this) は、イベントが発生した要素（.x-scroll）を参照します。
+//     let scroll_val = $(this).scrollLeft();
+//     $('.scroll-val').text(scroll_val);
+//   });
+// });
+
+// li要素の最後を削除
+// $(function () {
+//   $('.delete').on('click', function () {
+//     // let li_delete = $('li').eq(0).clone();
+//     $('ul li:last-child').remove();
+//   });
+// });
+
+// 要素から属性を取り除く
+// $(function () {
+//     // $('[data-delete]') は、data-delete 属性を持つすべての要素を選択します。
+//   $('[data-delete]').on('click', function () {
+//     // クリックされた要素の data-delete 属性の値を取得
+//     let my_attr = $(this).attr('data-delete');
+//     // [data-delete-target]属性を持つ全ての要素にmy-attrの属性に空の値を設定
+//     $('[data-delete-target]').attr(my_attr, '');
+//   });
+// });
+
+// 「scrollしたら」を設定しよう
+// $(function(){
+//     $(window).on('scroll', function(){
+//      $('.scroll-val').text($(this).scrollTop());
+//     });
+//    });
