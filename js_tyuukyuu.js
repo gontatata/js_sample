@@ -163,3 +163,39 @@
 //      $('.scroll-val').text($(this).scrollTop());
 //     });
 //    });
+
+// 要素内の最後に要素を挿入しよう
+// クラス名への操作には.をつける。
+// $(function () {
+//   $('.add').on('click', function () {
+//     $('.val').append($('input').val());
+//   });
+// });
+
+// ダブルクリックでアラート;
+// $(function () {
+//   $('.double').on('dblclick', function () {
+//     alert('double click');
+//   });
+// });
+
+// 入力値が変わったら表示しよう
+// $(function () {
+//   $('input').on('change', function () {
+//     $('.val').text($('this').val());
+//   });
+// });
+
+// リサイズされたら横幅を取得しよう;
+// $(function () {
+//   $(window).on('resize', function () {
+//     $('.val').text($(this).width());
+//   });
+// });
+// keyがupしたら値を取得しよう;
+// $(function () {
+//     // keyを押してあげた時に反映。リアルタイムのある入力反映
+//   $('input').on('keyup', function () {
+//     $('.val').text($(this).val());
+//   });
+// });
